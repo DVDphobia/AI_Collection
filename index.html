@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tool Finder for Students</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI Tool Finder for Students</h1>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search AI tools...">
+            </div>
+        </header>
+
+        <main>
+            <div class="categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="writing">Writing</button>
+                <button class="category-btn" data-category="research">Research</button>
+                <button class="category-btn" data-category="programming">Programming</button>
+                <button class="category-btn" data-category="math">Math</button>
+            </div>
+
+            <div id="aiTools" class="ai-tools">
+                <!-- AI tools will be inserted here by JavaScript -->
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
