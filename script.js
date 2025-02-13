@@ -215,7 +215,29 @@ const aiTools = [
         category: "writing",
         tags: ["Free", "Premium"],
         url: "https://ai-writer.com"
-    }
+    },
+    {
+        name: "Deepseak",
+        description: "AI writing assistant for long-form content creation and blogging and Programming ",
+        category: "writing",
+        tags: ["Free", "Premium"],
+        url: "https://ai-writer.com"
+    }, 
+    {
+        name: "Codeium",
+        description: "AI-powered coding assistant that suggests and autocompletes code snippets.",
+        category: "Programming",
+        tags: ["Free"],
+        url: "https://codeium.com"
+    },
+    {
+        "name": "Claude AI",
+        "description": "AI chatbot by Anthropic focused on safe and conversational AI interactions.",
+        "category": "Programming",
+        "tags": ["Free", "Premium"],
+        "url": "https://www.anthropic.com/index/claude"
+    },
+ 
 ];
 
 
